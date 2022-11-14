@@ -1,4 +1,4 @@
-require "challenge"
+require "TDD_challenge"
 describe "challenge" do
     it "returns a number of words in a string" do
     result = count_words("rose lily violet")

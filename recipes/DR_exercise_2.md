@@ -14,7 +14,7 @@ _Put or write the user story here. Add any clarifying notes you might have._
 _Include the name of the method, its parameters, return value, and side effects._
 
 ```ruby
-def text(parameters)
+def text(expression)
 verify if starts with .capitalize && ends with "." "!" "?"
 return true or false
 
@@ -31,7 +31,7 @@ _Make a list of examples of what the method will take and return._
 =>false
 
 #checks if ("Great day...")
-=>false
+=>true
 
 #checks if ("What a day!")
 =>true
