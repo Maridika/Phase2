@@ -12,13 +12,21 @@ _Put or write the user story here. Add any clarifying notes you might have._
 
 _Include the name of the method, its parameters, return value, and side effects._
 
+text(string)
+return string
+else
+return "no task"
 
 ## 3. Create Examples as Tests
 
 _Make a list of examples of what the method will take and return._
 
 ```ruby
+it takes "#TODO Wash dishes."
+=> task
 
+it takes "Clean bathroom"
+=> no task
 
 ```
 
